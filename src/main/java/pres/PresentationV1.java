@@ -1,6 +1,7 @@
 package pres;
 
 import dao.DaoImpl;
+import ext.DaoImplV2;
 import metier.MetierImpl;
 
 public class PresentationV1 {
@@ -10,9 +11,10 @@ public class PresentationV1 {
         Injection des dependances par instanciation statique
          */
 
-        DaoImpl d=new DaoImpl();
-        MetierImpl metier=new MetierImpl();
-        metier.setDao(d);
+        DaoImplV2 d = new DaoImplV2();
+        MetierImpl metier = new MetierImpl(d); //injection des dependance via le constructeur
+        //  metier.setDao(d); //injection des dependance via le setter
         System.out.println(metier.calcul());
+
     }
 }
