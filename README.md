@@ -134,7 +134,7 @@ metier.MetierImpl
 
 ## Ressources
 Le Professeur Mohamed Youssfi explique en détail le principe de l'inversion de contrôle (IoC) et l'injection de dépendances dans cette vidéo :
-[Principe de l'Inversion de Contrôle (IoC) et Injection des Dépendances]([https://www.youtube.com/watch?v=DNb1PHaokNY](https://www.youtube.com/watch?v=N6_IL2cxVrs&ab_channel=ProfesseurMohamedYOUSSFI)
+[Principe de l'Inversion de Contrôle (IoC) et Injection des Dépendances](https://www.youtube.com/watch?v=N6_IL2cxVrs&ab_channel=ProfesseurMohamedYOUSSFI)
 
 ## Conclusion
 L'injection de dépendances permet de réduire le couplage entre les classes et d'améliorer la flexibilité et la maintenabilité du code. En utilisant l'instanciation dynamique, nous pouvons modifier le comportement du programme sans changer son code source, ce qui est idéal pour les applications modulaires et extensibles.
